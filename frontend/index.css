@@ -1,0 +1,69 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-section, .search-section, .list-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.search-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+#searchResult {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: none;
+}
+
+#taxpayersList {
+    display: grid;
+    gap: 10px;
+}
+
+.taxpayer-card {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
